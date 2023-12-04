@@ -1,0 +1,1508 @@
+<%-include('common/head.ejs')-%>
+
+
+<body>
+  <div class="preloader js-preloader">
+    <div class="preloader__wrap">
+      <div class="preloader__icon">
+        <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_1_41)">
+            <path d="M32.9675 13.9422C32.9675 6.25436 26.7129 0 19.0251 0C11.3372 0 5.08289 6.25436 5.08289 13.9422C5.08289 17.1322 7.32025 21.6568 11.7327 27.3906C13.0538 29.1071 14.3656 30.6662 15.4621 31.9166V35.8212C15.4621 36.4279 15.9539 36.92 16.561 36.92H21.4895C22.0965 36.92 22.5883 36.4279 22.5883 35.8212V31.9166C23.6849 30.6662 24.9966 29.1071 26.3177 27.3906C30.7302 21.6568 32.9675 17.1322 32.9675 13.9422V13.9422ZM30.7699 13.9422C30.7699 16.9956 27.9286 21.6204 24.8175 25.7245H23.4375C25.1039 20.7174 25.9484 16.7575 25.9484 13.9422C25.9484 10.3587 25.3079 6.97207 24.1445 4.40684C23.9229 3.91841 23.6857 3.46886 23.4347 3.05761C27.732 4.80457 30.7699 9.02494 30.7699 13.9422ZM20.3906 34.7224H17.6598V32.5991H20.3906V34.7224ZM21.0007 30.4014H17.0587C16.4167 29.6679 15.7024 28.8305 14.9602 27.9224H16.1398C16.1429 27.9224 16.146 27.9227 16.1489 27.9227C16.152 27.9227 23.0902 27.9224 23.0902 27.9224C22.3725 28.8049 21.6658 29.6398 21.0007 30.4014ZM19.0251 2.19765C20.1084 2.19765 21.2447 3.33365 22.1429 5.3144C23.1798 7.60078 23.7508 10.6649 23.7508 13.9422C23.7508 16.6099 22.8415 20.6748 21.1185 25.7245H16.9322C15.2086 20.6743 14.2994 16.6108 14.2994 13.9422C14.2994 10.6649 14.8706 7.60078 15.9075 5.3144C16.8057 3.33365 17.942 2.19765 19.0251 2.19765V2.19765ZM7.28053 13.9422C7.28053 9.02494 10.3184 4.80457 14.6157 3.05761C14.3647 3.46886 14.1273 3.91841 13.9059 4.40684C12.7425 6.97207 12.102 10.3587 12.102 13.9422C12.102 16.7584 12.9462 20.7176 14.6126 25.7245H13.2259C9.33565 20.6126 7.28053 16.5429 7.28053 13.9422Z" fill="#3554D1" />
+          </g>
+
+          <defs>
+            <clipPath id="clip0_1_41">
+              <rect width="36.92" height="36.92" fill="white" transform="translate(0.540039)" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </div>
+
+    <div class="preloader__title">GoTrip</div>
+  </div>
+
+  <main>
+
+
+    <div class="header-margin"></div>
+    <%-include('common/header.ejs')-%>
+
+
+
+    <section class="py-10 d-flex items-center bg-light-2">
+      <div class="container">
+        <div class="row y-gap-10 items-center justify-between">
+          <div class="col-auto">
+            <div class="row x-gap-10 y-gap-5 items-center text-14 text-light-1">
+              <div class="col-auto">
+                <div class="">Home</div>
+              </div>
+              <div class="col-auto">
+                <div class="">></div>
+              </div>
+              <div class="col-auto">
+                <div class="">India Hotels</div>
+              </div>
+              <div class="col-auto">
+                <div class="">></div>
+              </div>
+              <div class="col-auto">
+                <div class="text-dark-1">Great Northern Hotel, a Tribute Portfolio Hotel, India</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-auto">
+            <a href="#" class="text-14 text-blue-1 underline">All Hotel in India</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-40">
+      <div class="container">
+        <div class="row y-gap-30">
+          <div class="col-lg-8">
+            <div class="row y-gap-20 justify-between items-end">
+              <div class="col-auto">
+                <h1 class="text-30 sm:text-24 fw-600">Mercedes-Benz E-Class or similar</h1>
+
+                <div class="row x-gap-10 items-center pt-10">
+                  <div class="col-auto">
+                    <div class="d-flex x-gap-5 items-center">
+                      <i class="icon-location text-16 text-light-1"></i>
+                      <div class="text-15 text-light-1">Greater London, United Kingdom</div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto">
+                    <button data-x-click="mapFilter" class="text-blue-1 text-15 underline">Show on map</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div class="row x-gap-10 y-gap-10">
+                  <div class="col-auto">
+                    <button class="button px-15 py-10 -blue-1">
+                      <i class="icon-share mr-10"></i>
+                      Share
+                    </button>
+                  </div>
+
+                  <div class="col-auto">
+                    <button class="button px-15 py-10 -blue-1 bg-light-2">
+                      <i class="icon-heart mr-10"></i>
+                      Save
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carsSlider mt-40">
+              <div class="carsSlider-slides js-cars-slides">
+
+                <div class="carsSlider-slides__item rounded-4 -is-active">
+                  <img src="/frontent/img/cars/slider/slides/1.png" alt="image">
+                </div>
+
+                <div class="carsSlider-slides__item rounded-4 ">
+                  <img src="/frontent/img/cars/slider/slides/2.png" alt="image">
+                </div>
+
+                <div class="carsSlider-slides__item rounded-4 ">
+                  <img src="/frontent/img/cars/slider/slides/3.png" alt="image">
+                </div>
+
+                <div class="carsSlider-slides__item rounded-4 ">
+                  <img src="/frontent/img/cars/slider/slides/4.png" alt="image">
+                </div>
+
+              </div>
+
+              <div class="carsSlider-slider">
+                <div class="js-cars-slider">
+                  <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                      <img src="/frontent/img/cars/slider/1.png" alt="image" class="rounded-4">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="/frontent/img/cars/slider/2.png" alt="image" class="rounded-4">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="/frontent/img/cars/slider/3.png" alt="image" class="rounded-4">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="/frontent/img/cars/slider/4.png" alt="image" class="rounded-4">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="d-flex justify-end">
+              <div class="px-30 py-30 rounded-4 border-light shadow-4 bg-white w-360 lg:w-full">
+                <div class="row y-gap-15 items-center justify-between">
+                  <div class="col-auto">
+                    <div class="text-14 text-light-1">
+                      From
+                      <span class="text-20 fw-500 text-dark-1 ml-5">US$72</span>
+                    </div>
+                  </div>
+
+                  <div class="col-auto">
+                    <div class="d-flex items-center">
+                      <div class="text-14 text-right mr-10">
+                        <div class="lh-15 fw-500">Exceptional</div>
+                        <div class="lh-15 text-light-1">3,014 reviews</div>
+                      </div>
+
+                      <div class="size-40 flex-center bg-yellow-1 rounded-4">
+                        <div class="text-14 fw-600 text-dark-1">4.8</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row y-gap-20 pt-20">
+
+
+                  <div class="col-12">
+                    <a href="/contact" class="button h-50 px-24 -dark-1 bg-blue-1 text-white mt-10">
+                      book <div class="icon-arrow-top-right ml-15"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-40">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div>
+              <h3 class="text-22 fw-500">
+                Property highlights
+              </h3>
+
+              <div class="row y-gap-30 justify-between pt-20">
+
+                <div class="col-md-auto col-6">
+                  <div class="d-flex">
+                    <i class="icon-user-2 text-22 text-dark-1 mr-10"></i>
+                    <div class="text-15 lh-15">
+                      User<br> 4
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-auto col-6">
+                  <div class="d-flex">
+                    <i class="icon-luggage text-22 text-dark-1 mr-10"></i>
+                    <div class="text-15 lh-15">
+                      Luggage<br> 2
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-auto col-6">
+                  <div class="d-flex">
+                    <i class="icon-transmission text-22 text-dark-1 mr-10"></i>
+                    <div class="text-15 lh-15">
+                      Transmission<br> Automatic
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-auto col-6">
+                  <div class="d-flex">
+                    <i class="icon-speedometer text-22 text-dark-1 mr-10"></i>
+                    <div class="text-15 lh-15">
+                      Mileage<br> Unlimited
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="border-top-light mt-40 mb-40"></div>
+
+            <div>
+              <h3 class="text-22 fw-500">Overview</h3>
+              <p class="text-dark-1 text-15 mt-20">
+                Unless you hire a car, visiting Stonehenge, Bath, and Windsor Castle in one day is next to impossible. Designed specifically for travelers with limited time in London, this tour allows you to check off a range of southern England's historical attractions in just one day by eliminating the hassle of traveling between each one independently. Travel by comfortable coach and witness your guide bring each UNESCO World Heritage Site to life with commentary. Plus, all admission tickets are included in the tour price.
+              </p>
+              <a href="#" class="d-block text-14 text-blue-1 fw-500 underline mt-10">Show More</a>
+
+              <div class="mt-60 lg:mt-40 md:mt-30">
+                <h5 class="text-16 fw-500">Highlights</h5>
+                <ul class="list-disc text-15 mt-10">
+                  <li>Travel between the UNESCO World Heritage sites aboard a comfortable coach</li>
+                  <li>Explore with a guide to delve deeper into the history</li>
+                  <li>Great for history buffs and travelers with limited time</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="border-top-light mt-40 mb-40"></div>
+
+            <div>
+              <h3 class="text-22 fw-500">Specifications</h3>
+
+              <div class="col-xl-9">
+                <div class="row y-gap-30 pt-15">
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Make</div>
+                    <div class="text-15">Honda</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Model</div>
+                    <div class="text-15">Honda</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Made Year</div>
+                    <div class="text-15">2022</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Mileage</div>
+                    <div class="text-15">120,556</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Mileage</div>
+                    <div class="text-15">120,556</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Version</div>
+                    <div class="text-15">2.0 Turbo</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Horsepower (hp)</div>
+                    <div class="text-15">200</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Transmission</div>
+                    <div class="text-15">Auto</div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="fw-500">Condition</div>
+                    <div class="text-15">New</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="border-top-light mt-40 mb-40"></div>
+
+            <div>
+              <h3 class="text-22 fw-500">Amenities</h3>
+
+              <div class="row y-gap-10 pt-15">
+
+                <div class="col-sm-5">
+                  <div class="d-flex items-center">
+                    <i class="icon-check text-10 mr-15"></i>
+                    <div class="text-15">Airbag</div>
+                  </div>
+                </div>
+
+                <div class="col-sm-5">
+                  <div class="d-flex items-center">
+                    <i class="icon-check text-10 mr-15"></i>
+                    <div class="text-15">FM Radio</div>
+                  </div>
+                </div>
+
+                <div class="col-sm-5">
+                  <div class="d-flex items-center">
+                    <i class="icon-check text-10 mr-15"></i>
+                    <div class="text-15">Power Windows</div>
+                  </div>
+                </div>
+
+                <div class="col-sm-5">
+                  <div class="d-flex items-center">
+                    <i class="icon-check text-10 mr-15"></i>
+                    <div class="text-15">Sensor</div>
+                  </div>
+                </div>
+
+                <div class="col-sm-5">
+                  <div class="d-flex items-center">
+                    <i class="icon-check text-10 mr-15"></i>
+                    <div class="text-15">Speed Km</div>
+                  </div>
+                </div>
+
+                <div class="col-sm-5">
+                  <div class="d-flex items-center">
+                    <i class="icon-check text-10 mr-15"></i>
+                    <div class="text-15">Steering Wheel</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="border-top-light mt-40"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <div class="mt-40"></div>
+
+    <section>
+      <div class="container">
+        <div class="row y-gap-20">
+          <div class="col-lg-4">
+            <h2 class="text-22 fw-500">FAQs about<br> The Crown Hotel</h2>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="accordion -simple row y-gap-20 js-accordion">
+
+              <div class="col-12">
+                <div class="accordion__item px-20 py-20 border-light rounded-4">
+                  <div class="accordion__button d-flex items-center">
+                    <div class="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20">
+                      <i class="icon-plus"></i>
+                      <i class="icon-minus"></i>
+                    </div>
+
+                    <div class="button text-dark-1">What do I need to hire a car?</div>
+                  </div>
+
+                  <div class="accordion__content">
+                    <div class="pt-20 pl-60">
+                      <p class="text-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="accordion__item px-20 py-20 border-light rounded-4">
+                  <div class="accordion__button d-flex items-center">
+                    <div class="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20">
+                      <i class="icon-plus"></i>
+                      <i class="icon-minus"></i>
+                    </div>
+
+                    <div class="button text-dark-1">How old do I have to be to rent a car?</div>
+                  </div>
+
+                  <div class="accordion__content">
+                    <div class="pt-20 pl-60">
+                      <p class="text-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="accordion__item px-20 py-20 border-light rounded-4">
+                  <div class="accordion__button d-flex items-center">
+                    <div class="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20">
+                      <i class="icon-plus"></i>
+                      <i class="icon-minus"></i>
+                    </div>
+
+                    <div class="button text-dark-1">Can I book a hire car for someone else?</div>
+                  </div>
+
+                  <div class="accordion__content">
+                    <div class="pt-20 pl-60">
+                      <p class="text-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="accordion__item px-20 py-20 border-light rounded-4">
+                  <div class="accordion__button d-flex items-center">
+                    <div class="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20">
+                      <i class="icon-plus"></i>
+                      <i class="icon-minus"></i>
+                    </div>
+
+                    <div class="button text-dark-1">How do I find the cheapest car hire deal?</div>
+                  </div>
+
+                  <div class="accordion__content">
+                    <div class="pt-20 pl-60">
+                      <p class="text-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="accordion__item px-20 py-20 border-light rounded-4">
+                  <div class="accordion__button d-flex items-center">
+                    <div class="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20">
+                      <i class="icon-plus"></i>
+                      <i class="icon-minus"></i>
+                    </div>
+
+                    <div class="button text-dark-1">What should I look for when I&#39;m choosing a car?</div>
+                  </div>
+
+                  <div class="accordion__content">
+                    <div class="pt-20 pl-60">
+                      <p class="text-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container mt-40 mb-40">
+      <div class="border-top-light"></div>
+    </div>
+
+  
+
+    <div class="container mt-40 mb-40">
+      <div class="border-top-light"></div>
+    </div>
+
+
+
+    <div class="layout-pt-lg"></div>
+
+    
+
+    <%-include('common/footer.ejs')-%>
+
+
+  </main>
+
+  <div class="langMenu is-hidden js-langMenu" data-x="lang" data-x-toggle="is-hidden">
+    <div class="langMenu__bg" data-x-click="lang"></div>
+
+    <div class="langMenu__content bg-white rounded-4">
+      <div class="d-flex items-center justify-between px-30 py-20 sm:px-15 border-bottom-light">
+        <div class="text-20 fw-500 lh-15">Select your language</div>
+        <button class="pointer" data-x-click="lang">
+          <i class="icon-close"></i>
+        </button>
+      </div>
+
+      <div class="modalGrid px-30 py-30 sm:px-15 sm:py-15">
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">English</div>
+            <div class="text-14 lh-15 mt-5 js-title">United States</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Türkçe</div>
+            <div class="text-14 lh-15 mt-5 js-title">Turkey</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Español</div>
+            <div class="text-14 lh-15 mt-5 js-title">España</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Français</div>
+            <div class="text-14 lh-15 mt-5 js-title">France</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Italiano</div>
+            <div class="text-14 lh-15 mt-5 js-title">Italia</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">English</div>
+            <div class="text-14 lh-15 mt-5 js-title">United States</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Türkçe</div>
+            <div class="text-14 lh-15 mt-5 js-title">Turkey</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Español</div>
+            <div class="text-14 lh-15 mt-5 js-title">España</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Français</div>
+            <div class="text-14 lh-15 mt-5 js-title">France</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Italiano</div>
+            <div class="text-14 lh-15 mt-5 js-title">Italia</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">English</div>
+            <div class="text-14 lh-15 mt-5 js-title">United States</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Türkçe</div>
+            <div class="text-14 lh-15 mt-5 js-title">Turkey</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Español</div>
+            <div class="text-14 lh-15 mt-5 js-title">España</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Français</div>
+            <div class="text-14 lh-15 mt-5 js-title">France</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Italiano</div>
+            <div class="text-14 lh-15 mt-5 js-title">Italia</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">English</div>
+            <div class="text-14 lh-15 mt-5 js-title">United States</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Türkçe</div>
+            <div class="text-14 lh-15 mt-5 js-title">Turkey</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Español</div>
+            <div class="text-14 lh-15 mt-5 js-title">España</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Français</div>
+            <div class="text-14 lh-15 mt-5 js-title">France</div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Italiano</div>
+            <div class="text-14 lh-15 mt-5 js-title">Italia</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="currencyMenu is-hidden js-currencyMenu" data-x="currency" data-x-toggle="is-hidden">
+    <div class="currencyMenu__bg" data-x-click="currency"></div>
+
+    <div class="currencyMenu__content bg-white rounded-4">
+      <div class="d-flex items-center justify-between px-30 py-20 sm:px-15 border-bottom-light">
+        <div class="text-20 fw-500 lh-15">Select your currency</div>
+        <button class="pointer" data-x-click="currency">
+          <i class="icon-close"></i>
+        </button>
+      </div>
+
+      <div class="modalGrid px-30 py-30 sm:px-15 sm:py-15">
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">United States dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">USD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Australian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">AUD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Brazilian real</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BRL</span>
+              - R$
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Bulgarian lev</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BGN</span>
+              - лв.
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Canadian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">CAD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">United States dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">USD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Australian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">AUD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Brazilian real</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BRL</span>
+              - R$
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Bulgarian lev</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BGN</span>
+              - лв.
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Canadian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">CAD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">United States dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">USD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Australian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">AUD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Brazilian real</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BRL</span>
+              - R$
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Bulgarian lev</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BGN</span>
+              - лв.
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Canadian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">CAD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">United States dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">USD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Australian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">AUD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Brazilian real</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BRL</span>
+              - R$
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Bulgarian lev</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">BGN</span>
+              - лв.
+            </div>
+          </div>
+        </div>
+
+        <div class="modalGrid__item js-item">
+          <div class="py-10 px-15 sm:px-5 sm:py-5">
+            <div class="text-15 lh-15 fw-500 text-dark-1">Canadian dollar</div>
+            <div class="text-14 lh-15 mt-5">
+              <span class="js-title">CAD</span>
+              - $
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="mapFilter" data-x="mapFilter" data-x-toggle="-is-active">
+    <div class="mapFilter__overlay"></div>
+
+    <div class="mapFilter__close">
+      <button class="button -blue-1 size-40 bg-white shadow-2" data-x-click="mapFilter">
+        <i class="icon-close text-15"></i>
+      </button>
+    </div>
+
+    <div class="mapFilter__grid" data-x="mapFilter__grid" data-x-toggle="-filters-hidden">
+      <div class="mapFilter-filter scroll-bar-1">
+        <div class="px-20 py-20 md:px-15 md:py-15">
+          <div class="d-flex items-center justify-between">
+            <div class="text-18 fw-500">Filters</div>
+
+            <button class="size-40 flex-center rounded-full bg-blue-1" data-x-click="mapFilter__grid">
+              <i class="icon-chevron-left text-12 text-white"></i>
+            </button>
+          </div>
+
+          <div class="mapFilter-filter__item">
+            <h5 class="text-18 fw-500 mb-10">Popular Filters</h5>
+            <div class="sidebar-checkbox">
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox">
+                      <input type="checkbox">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+                    <div class="text-15 ml-10">Breakfast Included</div>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">92</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox">
+                      <input type="checkbox">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+                    <div class="text-15 ml-10">Romantic</div>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">45</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox">
+                      <input type="checkbox">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+                    <div class="text-15 ml-10">Airport Transfer</div>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">21</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox">
+                      <input type="checkbox">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+                    <div class="text-15 ml-10">WiFi Included </div>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">78</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox">
+                      <input type="checkbox">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+                    <div class="text-15 ml-10">5 Star</div>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">679</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="mapFilter-filter__item">
+            <h5 class="text-18 fw-500 mb-10">Nightly Price</h5>
+            <div class="row x-gap-10 y-gap-30">
+              <div class="col-12">
+                <div class="js-price-rangeSlider">
+                  <div class="text-14 fw-500"></div>
+
+                  <div class="d-flex justify-between mb-20">
+                    <div class="text-15 text-dark-1">
+                      <span class="js-lower"></span>
+                      -
+                      <span class="js-upper"></span>
+                    </div>
+                  </div>
+
+                  <div class="px-5">
+                    <div class="js-slider"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mapFilter-filter__item">
+            <h5 class="text-18 fw-500 mb-10">Amenities</h5>
+            <div class="sidebar-checkbox">
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Breakfast Included</div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">92</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">WiFi Included </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">45</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Pool</div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">21</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Restaurant </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">78</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Air conditioning </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">679</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="mapFilter-filter__item">
+            <h5 class="text-18 fw-500 mb-10">Star Rating</h5>
+            <div class="row x-gap-10 y-gap-10 pt-10">
+
+              <div class="col-auto">
+                <a href="#" class="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">1</a>
+              </div>
+
+              <div class="col-auto">
+                <a href="#" class="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">2</a>
+              </div>
+
+              <div class="col-auto">
+                <a href="#" class="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">3</a>
+              </div>
+
+              <div class="col-auto">
+                <a href="#" class="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">4</a>
+              </div>
+
+              <div class="col-auto">
+                <a href="#" class="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">5</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="mapFilter-filter__item">
+            <h5 class="text-18 fw-500 mb-10">Guest Rating</h5>
+            <div class="sidebar-checkbox">
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="form-radio d-flex items-center ">
+                    <div class="radio">
+                      <input type="radio" name="name">
+                      <div class="radio__mark">
+                        <div class="radio__icon"></div>
+                      </div>
+                    </div>
+                    <div class="ml-10">Any</div>
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">92</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="form-radio d-flex items-center ">
+                    <div class="radio">
+                      <input type="radio" name="name">
+                      <div class="radio__mark">
+                        <div class="radio__icon"></div>
+                      </div>
+                    </div>
+                    <div class="ml-10">Wonderful 4.5+</div>
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">45</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="form-radio d-flex items-center ">
+                    <div class="radio">
+                      <input type="radio" name="name">
+                      <div class="radio__mark">
+                        <div class="radio__icon"></div>
+                      </div>
+                    </div>
+                    <div class="ml-10">Very good 4+</div>
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">21</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="form-radio d-flex items-center ">
+                    <div class="radio">
+                      <input type="radio" name="name">
+                      <div class="radio__mark">
+                        <div class="radio__icon"></div>
+                      </div>
+                    </div>
+                    <div class="ml-10">Good 3.5+ </div>
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">78</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="mapFilter-filter__item">
+            <h5 class="text-18 fw-500 mb-10">Style</h5>
+            <div class="sidebar-checkbox">
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Budget</div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">92</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Mid-range </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">45</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Luxury</div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">21</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Family-friendly </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">78</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Business </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">679</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="mapFilter-filter__item">
+            <h5 class="text-18 fw-500 mb-10">Neighborhood</h5>
+            <div class="sidebar-checkbox">
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Central London</div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">92</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Guests&#39; favourite area </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">45</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Westminster Borough</div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">21</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Kensington and Chelsea </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">78</div>
+                </div>
+              </div>
+
+              <div class="row y-gap-10 items-center justify-between">
+                <div class="col-auto">
+
+                  <div class="d-flex items-center">
+                    <div class="form-checkbox ">
+                      <input type="checkbox" name="name">
+                      <div class="form-checkbox__mark">
+                        <div class="form-checkbox__icon icon-check"></div>
+                      </div>
+                    </div>
+
+                    <div class="text-15 ml-10">Oxford Street </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-auto">
+                  <div class="text-15 text-light-1">679</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+   
+
+    
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM"></script>
+  <script src="../../../unpkg.com/%40googlemaps/markerclusterer%402.4.0/dist/index.min.js"></script> -->
+  <script src="/frontent/js/vendors.js"></script>
+  <script src="/frontent/js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from creativelayers.net/themes/gotrip-html/car-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Aug 2023 18:52:39 GMT -->
+</html>
